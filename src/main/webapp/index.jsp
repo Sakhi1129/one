@@ -685,9 +685,9 @@
         <input type="text" id="searchInput" placeholder="Search ..." aria-label="search">
         <button id="searchBtn"><i class="fas fa-search"></i></button>
       </div>
-      <button class="icon-btn"><i class="far fa-heart"></i></button>
+      <button class="icon-btn"><em class="far fa-heart"></i></button>
       <div class="cart-badge">
-        <button class="icon-btn"><i class="fas fa-shopping-bag"></i></button>
+        <button class="icon-btn"><em class="fas fa-shopping-bag"></i></button>
         <span class="count" id="cartCount">0</span>
       </div>
     </div>
@@ -709,11 +709,11 @@
   <section class="hero">
     <div class="container">
       <div class="hero-content">
-        <h1>Next-gen <br><i>essentials</i></h1>
+        <h1>Next-gen <br><em>essentials</i></h1>
         <p>Curated style, tech & everyday carry. Discover the latest drops with free shipping.</p>
         <div class="hero-actions">
-          <button class="btn btn-primary" id="shopNowBtn"><i class="fas fa-arrow-right"></i> Shop now</button>
-          <button class="btn btn-outline" id="exploreBtn"><i class="fas fa-tag"></i> Explore deals</button>
+          <button class="btn btn-primary" id="shopNowBtn"><em class="fas fa-arrow-right"></i> Shop now</button>
+          <button class="btn btn-outline" id="exploreBtn"><em class="fas fa-tag"></i> Explore deals</button>
         </div>
       </div>
       <div class="hero-visual">
@@ -726,7 +726,7 @@
   <section class="section container">
     <div class="section-header">
       <h2>Categories</h2>
-      <a href="#" class="link" id="viewAllCat">View all <i class="fas fa-arrow-right"></i></a>
+      <a href="#" class="link" id="viewAllCat">View all <em class="fas fa-arrow-right"></i></a>
     </div>
     <div class="category-grid" id="categoriesGrid"></div>
   </section>
@@ -759,7 +759,7 @@
         <div class="box"><div class="num" id="dealMinutes">00</div><div class="label">Min</div></div>
         <div class="box"><div class="num" id="dealSeconds">00</div><div class="label">Sec</div></div>
       </div>
-      <button class="btn btn-primary" id="buyDealBtn" style="background:#7c3aed; color:white; box-shadow:0 8px 20px rgba(124,58,237,0.3);"><i class="fas fa-bolt"></i> Grab deal</button>
+      <button class="btn btn-primary" id="buyDealBtn" style="background:#7c3aed; color:white; box-shadow:0 8px 20px rgba(124,58,237,0.3);"><em class="fas fa-bolt"></i> Grab deal</button>
     </div>
   </section>
 
@@ -778,7 +778,7 @@
       <div class="sub">Get early access to drops and exclusive discounts.</div>
       <form id="newsletterForm">
         <input type="email" id="newsEmail" placeholder="Your email address" required>
-        <button class="btn btn-primary" type="submit" style="padding:14px 38px;"><i class="fas fa-paper-plane"></i> Subscribe</button>
+        <button class="btn btn-primary" type="submit" style="padding:14px 38px;"><em class="fas fa-paper-plane"></i> Subscribe</button>
       </form>
       <div id="newsMsg" style="margin-top:14px; font-weight:500; display:none;"></div>
     </div>
@@ -792,9 +792,9 @@
         <div class="title" style="font-size:1.2rem; font-family:'Syne',sans-serif;">NexusShop</div>
         <div style="max-width:260px;">Modern e‑commerce demo with a clean aesthetic.</div>
         <div style="display:flex; gap:12px; margin-top:4px;">
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><em class="fab fa-twitter"></i></a>
+          <a href="#"><em class="fab fa-instagram"></i></a>
+          <a href="#"><em class="fab fa-github"></i></a>
         </div>
       </div>
       <div class="col"><span class="title">Company</span><a href="#">About</a><a href="#">Careers</a><a href="#">Press</a></div>
